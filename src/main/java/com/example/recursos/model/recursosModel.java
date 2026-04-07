@@ -1,14 +1,28 @@
 package com.example.recursos.model;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
 import java.time.LocalDate;
 
 public class recursosModel {
 
+    @NotNull(message = "El Id no puede ser nulo")
     private int id;
+
+    @NotBlank(message = "El nombre es obligatorio")
     private String nombre;
+
+    @NotBlank(message = "El tipo es obligatorio")
     private String tipo;
+
+    @NotNull(message = "La cantidad no puede ser nula")
     private int cantidad;
+
+    @NotBlank(message = "La persona responsable es obligatoria")
     private String pResponsable;
+
+    @NotNull(message = "La disponibilidad no puede ser nula")
     private Boolean disponibilidad;
     private LocalDate fCreacion;
 
