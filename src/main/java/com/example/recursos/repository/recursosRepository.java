@@ -22,7 +22,7 @@ public class recursosRepository {
 
     public recursosModel buscar(int id) {
         for (recursosModel recurso : listaRecursos) {
-            if (recurso.getid() == id) {
+            if (recurso.getId() == id) {
                 return recurso;
             }
         }
@@ -31,7 +31,7 @@ public class recursosRepository {
 
     public void eliminar(int id) {
         for (int i = 0; i < listaRecursos.size(); i++) {
-            if (listaRecursos.get(i).getid() == id) {
+            if (listaRecursos.get(i).getId() == id) {
                 listaRecursos.remove(i);
                 break;
             }

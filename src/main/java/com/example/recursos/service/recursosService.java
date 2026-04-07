@@ -31,7 +31,7 @@ public class recursosService {
         List<recursosModel> soloDisponibles = new ArrayList<>();
 
         for (recursosModel r : todos) {
-            if (r.isdisponibilidad() == true) {
+            if (r.isDisponibilidad() == true) {
                 soloDisponibles.add(r);
             }
         }

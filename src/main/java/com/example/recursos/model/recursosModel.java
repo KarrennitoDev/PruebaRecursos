@@ -39,25 +39,25 @@ public class recursosModel {
         this.fCreacion = fCreacion;
     }
 
-    public int getid() { return id; }
-    public void setid(int id) { this.id = id; }
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
 
-    public String getnombre() { return nombre; }
-    public void setnombre(String nombre) { this.nombre = nombre; }
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
 
-    public String gettipo() { return tipo; }
-    public void settipo(String tipo) { this.tipo = tipo; }
+    public String getTipo() { return tipo; }
+    public void setTipo(String tipo) { this.tipo = tipo; }
 
-    public int getcantidad() { return cantidad; }
-    public void setcantidad(int cantidad) { this.cantidad = cantidad; }
+    public int getCantidad() { return cantidad; }
+    public void setCantidad(int cantidad) { this.cantidad = cantidad; }
 
-    public String getpResponsable() { return pResponsable; }
-    public void setpResponsable(String pResponsable) { this.pResponsable = pResponsable; }
+    public String getPResponsable() { return pResponsable; }
+    public void setPResponsable(String pResponsable) { this.pResponsable = pResponsable; }
 
-    public boolean isdisponibilidad() { return disponibilidad; }
-    public void setdisponibilidad(boolean disponibilidad) { this.disponibilidad = disponibilidad; }
+    public boolean isDisponibilidad() { return disponibilidad; }
+    public void setDisponibilidad(boolean disponibilidad) { this.disponibilidad = disponibilidad; }
 
-    public LocalDate getfCreacion() { return fCreacion; }
-    public void setfCreacion(LocalDate fCreacion) { this.fCreacion = fCreacion; }
+    public LocalDate getFCreacion() { return fCreacion; }
+    public void setFCreacion(LocalDate fCreacion) { this.fCreacion = fCreacion; }
 }
 
