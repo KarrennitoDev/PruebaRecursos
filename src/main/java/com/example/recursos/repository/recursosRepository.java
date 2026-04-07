@@ -14,4 +14,10 @@ public class recursosRepository {
     public List<recursosModel> findAll() {
         return listaRecursos;
     }
+
+    public void guardar(recursosModel recurso) {
+        listaRecursos.add(recurso);
+    }
+
+
 }
